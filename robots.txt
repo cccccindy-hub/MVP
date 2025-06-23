@@ -1,0 +1,43 @@
+# robots.txt for https://bizuccess.com/
+
+#############################
+# 1. Universal directives  #
+#############################
+
+User-agent: *
+Disallow:
+
+#############################
+# 2. Explicit bot sections #
+#############################
+
+# Google
+User-agent: Googlebot
+Disallow:
+
+# Bing (and Yahoo, which uses Bing’s index)
+User-agent: Bingbot
+Disallow:
+
+# Yahoo’s legacy crawler
+User-agent: Slurp
+Disallow:
+
+# DuckDuckGo’s crawler
+User-agent: DuckDuckBot
+Disallow:
+
+# Yandex
+User-agent: Yandex
+Disallow:
+Crawl-delay: 5
+
+#############################
+# 3. Sitemaps & Host       #
+#############################
+
+# Tell every bot where your sitemap is
+Sitemap: https://bizuccess.com/sitemap.xml
+
+# (Yandex only) specify the preferred host
+Host: bizuccess.com
