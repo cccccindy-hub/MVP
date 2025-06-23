@@ -1,0 +1,13 @@
+#footer {
+  background-color: #0b192b;
+  padding: 20px 0;
+  text-align: center;
+  transition: background-color 1s;
+  transition-delay: 0.2s; }
+  #footer p,
+  #footer a {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 0; }
+
+/*# sourceMappingURL=footer.css.map */

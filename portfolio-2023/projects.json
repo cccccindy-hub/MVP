@@ -1,0 +1,192 @@
+[
+  {
+    "id": "justgpts",
+    "title": "JustGPTs",
+    "description": "JustGPTs is a directory website for custom ChatGPT models.",
+    "image": "images/projects/justgpts-img-min.jpg",
+    "githubLink": null,
+    "liveSiteText": "Visit Live Site:",
+    "liveSite": "https://justgpts.com/",
+    "tags": ["Personal Project"],
+    "overview": "JustGPTs is a directory website for custom ChatGPT models. I built JustGPTs as a place where people could find and share their own custom ChatGPT models. When I launched the site, the official GPT store was not yet active, so it made it very difficult to find user-created GPTs. This site was very fun to build and became quite popular for some time before OpenAI released the official GPT store.",
+    "roleText": "",
+    "roles": [],
+    "technologies": ["PHP", "MySQL", "JavaScript", "jQuery", "AJAX", "SCSS", "Bootstrap"],
+    "highlights": ["Optimized site performance, resulting in faster load times and improved user experience.", "Built a scraping tool using Puppeteer to quickly grab user submitted GPT details."],
+    "screenshots": [
+      {
+        "title": "PageSpeed Insights",
+        "src": "images/projects/justgpts-feature-1-min.jpg",
+        "width": "400"
+      },
+      {
+        "title": "GTMetrix",
+        "src": "images/projects/justgpts-feature-2-min.jpg",
+        "width": "400"
+      },
+      {
+        "title": "Full Homepage",
+        "src": "images/projects/justgpts_full-min.png",
+        "width": "800"
+      }
+    ]
+  },
+  {
+    "id": "dollartree",
+    "title": "Dollar Tree Inc.",
+    "description": "The Corporate and IR website for Dollar Tree Inc.",
+    "image": "images/projects/dollartree-img-min.jpg",
+    "githubLink": null,
+    "liveSiteText": "While I don't own the code or the site, you can visit the live Dollar Tree Inc. site to see the final product:",
+    "liveSite": "https://corporate.dollartree.com/",
+    "tags": ["Company Project"],
+    "overview": "I contributed to the development of the Dollar Tree Corporate and IR site, working as part of a team to deliver a high-quality, user-friendly, and accessible web experience. This project involved collaboration with designers, developers, and stakeholders to ensure the site met all requirements and provided an excellent user experience.",
+    "roleText": "As a Front-End Web Developer, my responsibilities included:",
+    "roles": ["Collaborating with designers and project managers to implement responsive and accessible web pages.", "Writing clean, maintainable code using HTML, SCSS, JavaScript, jQuery, and PHP.", "Ensuring cross-browser compatibility and optimizing web pages for performance.", "Participating in code reviews and providing feedback to improve code quality.", "Troubleshooting and resolving bugs and issues in a timely manner."],
+    "technologies": ["HTML", "SCSS", "JavaScript", "jQuery", "PHP", "ChartJS", "Bootstrap", "Git", "WAVE", "Axe DevTools"],
+    "highlights": ["Implemented a responsive design that adapts seamlessly to different devices and screen sizes.", "Built out an interactive SVG map highlighting region availabilities.", "Built out interactive charts using the ChartJS library.", "Enhanced site accessibility to ensure compliance with WCAG standards.", "Optimized site performance, resulting in faster load times and improved user experience."],
+    "screenshots": [
+      {
+        "title": "Interactive SVG Map",
+        "src": "images/projects/dollar_tree_feature_1-min.png"
+      },
+      {
+        "title": "Interactive SVG Map On Click",
+        "src": "images/projects/dollar_tree_feature_2-min.png"
+      },
+      {
+        "title": "Interactive Charts",
+        "src": "images/projects/dollar_tree_feature_3-min.png"
+      },
+      {
+        "title": "Full Investors Homepage",
+        "src": "images/projects/dollar_tree_full-min.png"
+      }
+    ]
+  },
+  {
+    "id": "oxfordbio",
+    "title": "Oxford Biodynamics",
+    "description": "The Corporate and IR website for Oxford Biodynamics.",
+    "image": "images/projects/oxford-bio-img-min.jpg",
+    "githubLink": null,
+    "liveSiteText": "While I don't own the code or the site, you can visit the live Oxford Biodynamics site to see the final product:",
+    "liveSite": "https://www.oxfordbiodynamics.com/",
+    "tags": ["Company Project"],
+    "overview": "I contributed to the development of the Oxford Biodynamics Corporate and IR site, working as part of a team to deliver a high-quality, user-friendly, and accessible web experience. This project involved collaboration with designers, developers, and stakeholders to ensure the site met all requirements and provided an excellent user experience.",
+    "roleText": "As a Front-End Web Developer, my responsibilities included:",
+    "roles": ["Collaborating with designers and project managers to implement responsive and accessible web pages.", "Writing clean, maintainable code using HTML, SCSS, JavaScript, jQuery, and PHP.", "Ensuring cross-browser compatibility and optimizing web pages for performance.", "Participating in code reviews and providing feedback to improve code quality.", "Troubleshooting and resolving bugs and issues in a timely manner."],
+    "technologies": ["HTML", "SCSS", "JavaScript", "jQuery", "PHP", "Bootstrap", "Git", "WAVE", "Axe DevTools"],
+    "highlights": ["Implemented a responsive design that adapts seamlessly to different devices and screen sizes.", "Enhanced site accessibility to ensure compliance with WCAG standards.", "Optimized site performance, resulting in faster load times and improved user experience."],
+    "screenshots": [
+      {
+        "title": "Full Corporate Homepage",
+        "src": "images/projects/oxfordbio_full-min.png"
+      }
+    ]
+  },
+  {
+    "id": "algernon",
+    "title": "Algernon Pharmaceuticals",
+    "description": "The Corporate and IR website for Algernon Pharmaceuticals.",
+    "image": "images/projects/algernon-img-min.jpg",
+    "githubLink": null,
+    "liveSiteText": "While I don't own the code or the site, you can visit the live Algernon Pharmaceuticals site to see the final product:",
+    "liveSite": "https://www.algernonpharmaceuticals.com/",
+    "tags": ["Company Project"],
+    "overview": "I contributed to the development of the Algernon Pharmaceuticals Corporate and IR site, working as part of a team to deliver a high-quality, user-friendly, and accessible web experience. This project involved collaboration with designers, developers, and stakeholders to ensure the site met all requirements and provided an excellent user experience.",
+    "roleText": "As a Front-End Web Developer, my responsibilities included:",
+    "roles": ["Collaborating with designers and project managers to implement responsive and accessible web pages.", "Writing clean, maintainable code using HTML, SCSS, JavaScript, jQuery, and PHP.", "Ensuring cross-browser compatibility and optimizing web pages for performance.", "Participating in code reviews and providing feedback to improve code quality.", "Troubleshooting and resolving bugs and issues in a timely manner."],
+    "technologies": ["HTML", "SCSS", "JavaScript", "jQuery", "PHP", "Bootstrap", "Git", "WAVE", "Axe DevTools"],
+    "highlights": ["Implemented a responsive design that adapts seamlessly to different devices and screen sizes.", "Built out an interactive program pipeline.", "Enhanced site accessibility to ensure compliance with WCAG standards.", "Optimized site performance, resulting in faster load times and improved user experience."],
+    "screenshots": [
+      {
+        "title": "Program Pipeline",
+        "src": "images/projects/algernon_feature_1-min.png"
+      },
+      {
+        "title": "Full Investors Homepage",
+        "src": "images/projects/algernon_full-min.png"
+      }
+    ]
+  },
+  {
+    "id": "portfolio-2021",
+    "title": "Portfolio 2021",
+    "description": "My previous portfolio site from 2021.",
+    "image": "images/projects/portfolio-2021-img-min.jpg",
+    "githubLink": "https://github.com/nicktesh/portfolio-2021",
+    "liveSiteText": "",
+    "liveSite": "https://nicktesh.github.io/portfolio-2021/",
+    "tags": ["Personal Project"],
+    "overview": "My portfolio site from 2020/2021 is one I like to keep on display for two reasons. Firstly, it's a reminder of how far I've come with my skillset and knowledge. Secondly, I still love the design and had so much fun creating all of the graphics used on the site.",
+    "roleText": "",
+    "roles": [],
+    "technologies": ["HTML", "SCSS", "JavaScript", "jQuery", "Bootstrap"],
+    "highlights": ["Implemented a responsive design that adapts seamlessly to different devices and screen sizes.", "Added in some beautiful anti-gravity effects to the site."],
+    "screenshots": [
+      {
+        "title": "Anti-gravity Switch",
+        "src": "images/projects/portfolio-2021-feature-1-min.jpg"
+      },
+      {
+        "title": "Full Corporate Homepage",
+        "src": "images/projects/portfolio-2021-full-min.png"
+      }
+    ]
+  },
+  {
+    "id": "signature-creator",
+    "title": "Digital Signature Creator",
+    "description": "The Signature Creator tool lets users create customizable digital signatures by drawing or typing.",
+    "image": "images/projects/signature-creator-img-min.jpg",
+    "githubLink": "https://github.com/nicktesh/signature-creator",
+    "liveSiteText": "",
+    "liveSite": "https://nicktesh.github.io/signature-creator/",
+    "tags": ["Freelance Project"],
+    "overview": "I created a demo of the Signature Creator tool, which originated from a freelance project. This tool allows users to generate digital signatures by drawing or typing, with features for customizing pen settings, font styles, and export options. The demo highlights my skills in developing user-friendly and versatile digital tools.",
+    "roleText": "",
+    "roles": [],
+    "technologies": ["HTML", "SCSS", "JavaScript", "Bootstrap"],
+    "highlights": ["Enabled customizable digital signatures through drawing or typing.", "Integrated features for adjusting pen settings, choosing font styles, and resizing text.", "Implemented functionality for exporting signatures as PNG or JPG files.", "Ensured a user-friendly interface with intuitive controls.", "Showcased versatility and attention to detail in digital tool development."],
+    "screenshots": [
+      {
+        "title": "Preview of Canvas Drawing",
+        "src": "images/projects/signature-creator-feature-1-min.jpg"
+      },
+      {
+        "title": "Preview of Canvas Typing",
+        "src": "images/projects/signature-creator-feature-2-min.jpg"
+      },
+      {
+        "title": "Full Homepage",
+        "src": "images/projects/signature-creator-full-min.png"
+      }
+    ]
+  },
+  {
+    "id": "password-generator",
+    "title": "Password Generator",
+    "description": "The Password Generator tool helps you generate a secure password instantly.",
+    "image": "images/projects/password-generator-img-min.jpg",
+    "githubLink": "https://github.com/nicktesh/password-generator",
+    "liveSiteText": "",
+    "liveSite": "https://nicktesh.github.io/password-generator/",
+    "tags": ["Personal Project"],
+    "overview": "I created a password generator tool to quickly generate secure and customizable passwords. This tool allows users to generate strong and unique passwords with options to customize length and include letters, numbers, and special characters. The design features a user-friendly interface with real-time visual feedback and a visually appealing color palette of pinks and purples. This demo showcases my skills in developing secure, user-friendly, and aesthetically pleasing digital tools.",
+    "roleText": "",
+    "roles": [],
+    "technologies": ["HTML", "SCSS", "JavaScript", "Bootstrap"],
+    "highlights": ["Developed a robust password generator tool with customizable options for length and character types.", "Implemented secure algorithms to ensure the generation of strong and unique passwords.", "Enabled real-time password generation with instant visual feedback.", "Ensured compatibility across various devices and browsers for seamless access.", "Demonstrated a focus on security, usability, and aesthetic design in tool development."],
+    "screenshots": [
+      {
+        "title": "Preview of Custom Word Option",
+        "src": "images/projects/password-generator-feature-1-min.png"
+      },
+      {
+        "title": "Full Homepage",
+        "src": "images/projects/password-generator-full-min.png"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+@import "variables";
+@import "mixins";
+
+#footer {
+  background-color: $color-primary;
+  padding: 20px 0;
+  text-align: center;
+  transition: background-color 1s;
+  transition-delay: 0.2s;
+  p,
+  a {
+    font-size: 14px;
+    color: $color-white;
+    margin-bottom: 0;
+  }
+}

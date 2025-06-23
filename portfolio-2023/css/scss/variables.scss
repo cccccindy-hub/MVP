@@ -1,0 +1,92 @@
+// ------------------------------
+// Table of Contents
+// ------------------------------
+// 1.0 - Color Variables
+// 2.0 - Heading and Text Variables
+// ------------------------------
+
+// 1.0 - Color Variables
+// ------------------------------
+
+// Main Colors
+$color-primary: #0b192b;
+$color-primary-50: #858c95;
+$color-secondary: #ef6262;
+$color-secondary-50: #f7b1b1;
+$color-secondary-25: #fbd8d8;
+$color-tertiary: #f3aa60;
+$color-tertiary-50: #f9d5b0;
+$color-quaternary: #468b97;
+$color-text: #202020;
+$color-black: #000;
+$color-white: #fff;
+$color-neutral: #eaeaea;
+$color-neutral-50: #f5f5f5;
+$color-dark-blue: #090b16;
+$color-dark-grey: #202020;
+$color-success: #28a745;
+$color-danger: #dc3545;
+
+// Night Colors
+$color-night-dark: #08080f;
+$color-night-medium: #0e0e1a;
+$color-night-light: #1b1b31;
+$color-night-lighter: #38385f;
+
+// 2.0 - Heading and Text Variables
+// ------------------------------
+
+// Font Size
+$h1-size: 50px;
+$h2-size: 40px;
+$h3-size: 28px;
+$h4-size: 20px;
+$h5-size: 16px;
+$h6-size: 14px;
+$p-size: 18px;
+$a-size: 18px;
+$body-font-size: $p-size;
+
+// Mobile Font Sizes
+$h1-mobile-size: 28px;
+$h2-mobile-size: 26px;
+$h3-mobile-size: 24px;
+$h4-mobile-size: 22px;
+$h5-mobile-size: 20px;
+$h6-mobile-size: 18px;
+$p-mobile-size: 16px;
+$a-mobile-size: 16px;
+
+// Font Weight
+$h1-weight: 700;
+$h2-weight: 600;
+$h3-weight: 600;
+$h4-weight: 600;
+$h5-weight: 600;
+$h6-weight: 600;
+$p-weight: 400;
+$a-weight: 700;
+$body-font-weight: $p-weight;
+
+// Font Color
+$h1-color: $color-dark-grey;
+$h2-color: $color-dark-grey;
+$h3-color: $color-dark-grey;
+$h4-color: $color-dark-grey;
+$h5-color: $color-dark-grey;
+$h6-color: $color-dark-grey;
+$p-color: $color-text;
+$a-color: $color-primary;
+
+// Font Family
+$font-primary: "Cabin", sans-serif;
+$font-secondary: "Kanit", sans-serif;
+
+// Font Line Height and Spacing
+$body-font-line-height: 1.667;
+$body-font-letter-spacing: normal;
+
+// Additional Variables
+$border-radius: 50px;
+$border-radius-sm: 20px;
+$border-radius-xs: 8px;

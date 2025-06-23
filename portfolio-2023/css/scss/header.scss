@@ -1,0 +1,315 @@
+@import "variables";
+@import "mixins";
+
+#header {
+  position: relative;
+  z-index: 20;
+  &.internal-page {
+    .main-nav {
+      padding-bottom: 10px;
+      .top-section {
+        margin-bottom: 0;
+      }
+    }
+  }
+  // Top Section
+  .main-nav {
+    background-color: transparent;
+    padding: 20px 0;
+    @include lg-screen-down {
+      padding: 10px 0;
+      padding-bottom: 80px;
+    }
+    // Top section of navigation
+    .top-section {
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(space-between);
+      margin-bottom: 20px;
+      @include xl-screen-down {
+        margin-bottom: 0;
+      }
+      .right-side {
+        @include flexbox();
+        @include align-items(center);
+        #toggleButton {
+          position: relative;
+          @include flexbox();
+          @include justify-content(flex-start !important);
+          @include align-items(center !important);
+          width: 50px;
+          min-width: 50px;
+          height: 25px;
+          background-color: $color-dark-grey;
+          border: none;
+          border-radius: 20px;
+          margin-right: 20px;
+          transition: background-color 1s !important;
+          transition-delay: 0.2s;
+          &:before {
+            content: url("../../images/icons/moon-icon.svg");
+            position: absolute;
+            display: block;
+            width: 15px;
+            height: 15px;
+            top: 0;
+            left: 5px;
+            transition: left 1s right 1s;
+            transition-delay: 0.2s;
+            @include lg-screen-down {
+              top: 2px;
+            }
+          }
+        }
+        .sr-only {
+          color: $color-white;
+        }
+      }
+    }
+    .logo {
+      margin-right: 20px;
+      margin-bottom: 0;
+      .main-logo {
+        width: 50px;
+        max-width: 100%;
+        transition: filter 1s;
+        transition-delay: 0.2s;
+      }
+    }
+    .nav-links {
+      @include xl-screen-down {
+        display: none;
+      }
+      ul {
+        padding: 0;
+        margin-bottom: 0;
+        li {
+          display: inline-block;
+          a {
+            color: $color-dark-grey;
+            font-size: $a-size;
+            font-weight: 400;
+            font-family: $font-secondary;
+            text-transform: titlecase;
+            text-decoration: none;
+            transition: color 1s;
+            transition-delay: 0.2s;
+            &:hover,
+            &:active,
+            &:focus {
+              color: $color-primary;
+              text-decoration: underline;
+              text-underline-offset: 5px;
+              text-decoration-thickness: 2px;
+            }
+          }
+          button {
+            border: none;
+            background-color: transparent;
+            background: transparent;
+            outline: none;
+            padding: 0;
+            color: $color-dark-grey;
+            font-size: $a-size;
+            font-weight: 400;
+            font-family: $font-secondary;
+            text-transform: titlecase;
+            text-decoration: none;
+            transition: color 1s;
+            transition-delay: 0.2s;
+            &:hover,
+            &:active,
+            &:focus {
+              color: $color-primary;
+              text-decoration: underline;
+              text-underline-offset: 5px;
+              text-decoration-thickness: 2px;
+            }
+          }
+        }
+        li + li {
+          margin-left: 10px;
+          padding-left: 10px;
+        }
+      }
+    }
+    // The child ul styles
+    .default-links ul li {
+      position: relative;
+      &:hover,
+      &:active,
+      &:focus,
+      &:focus-within {
+        ul.sub-menu {
+          display: block;
+        }
+      }
+      ul.sub-menu {
+        display: none;
+        position: absolute;
+        top: 46px;
+        left: 0;
+        background-color: $color-white;
+        width: 200px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-top: 1px solid $color-neutral;
+        z-index: 99;
+        li {
+          width: 100%;
+          border-left: none;
+          & + li {
+            margin-left: 0;
+            padding-left: 0;
+          }
+          &:hover,
+          &:active,
+          &:focus {
+            a {
+              color: $color-white;
+              background-color: $color-secondary;
+              text-decoration: none;
+              &:after {
+                @include material_icon();
+                content: "arrow_forward";
+                position: absolute;
+                right: 20px;
+              }
+            }
+          }
+        }
+        a {
+          @include flexbox();
+          @include align-items(center);
+          @include justify-content(space-between);
+          width: 100%;
+          padding: 10px;
+        }
+      }
+    }
+  }
+  // Mobile Navigation
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 600px;
+    max-width: 100%;
+    height: 100%;
+    background-color: $color-white;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-out;
+    padding: 50px;
+    z-index: 99;
+    @include xl-screen-up {
+      display: none;
+    }
+    &.open {
+      transform: translateX(0);
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        a {
+          color: $color-dark-grey;
+          font-size: $a-size;
+          font-weight: 400;
+          font-family: $font-secondary;
+          text-transform: titlecase;
+          text-decoration: none;
+          transition: color 1s;
+          transition-delay: 0.2s;
+          &:hover,
+          &:active,
+          &:focus {
+            color: $color-primary;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            text-decoration-thickness: 2px;
+          }
+        }
+        button {
+          border: none;
+          background-color: transparent;
+          background: transparent;
+          outline: none;
+          padding: 0;
+          color: $color-dark-grey;
+          font-size: $a-size;
+          font-weight: 400;
+          font-family: $font-secondary;
+          text-transform: titlecase;
+          text-decoration: none;
+          transition: color 1s;
+          transition-delay: 0.2s;
+          &:hover,
+          &:active,
+          &:focus {
+            color: $color-primary;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            text-decoration-thickness: 2px;
+          }
+        }
+      }
+    }
+  }
+  .mobile-menu-toggle {
+    position: relative;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    transition: filter 1s;
+    transition-delay: 0.2s;
+    @include xl-screen-up {
+      display: none;
+    }
+    &:before {
+      content: url("../../images/icons/menu-icon.svg");
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 0;
+      right: 0;
+    }
+    &.close {
+      opacity: 1;
+      position: fixed;
+      right: 15px;
+      filter: none;
+      &:before {
+        content: url("../../images/icons/close-icon.svg");
+      }
+    }
+  }
+}
+.mob-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+  z-index: 98;
+  @include xl-screen-up {
+    display: none;
+  }
+  &.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+// Toggle Button Fix
+body.scroll {
+  #toggleButton {
+    margin-right: 50px !important;
+  }
+}
